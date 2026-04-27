@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Impressum – Kizushi Asiatische Fusion</title>
+<meta name="description" content="Impressum von Kizushi Asiatische Fusion, Hofheim am Taunus."/>
+<style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --black:#0c0c0c;--dark:#141414;--panel:#1a1a1a;--border:#2e2e2e;
+  --gold:#c9a96e;--gold2:#e8c98a;--muted:#888;--white:#f0ebe0;
+  --serif:'Playfair Display',Georgia,serif;--sans:'Lato',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:var(--sans);font-weight:300;line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;height:70px;background:rgba(12,12,12,.95);backdrop-filter:blur(16px);border-bottom:1px solid rgba(201,169,110,.2)}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{width:38px;height:38px}
+.logo-text{font-family:var(--serif);font-size:1.15rem;color:var(--gold);letter-spacing:.05em}
+.nav-links{display:flex;list-style:none;gap:2rem}
+.nav-links a{font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);transition:color .3s}
+.nav-links a:hover,.nav-links a.act{color:var(--gold)}
+.nav-cta{padding:.5rem 1.4rem;border:1px solid var(--gold);color:var(--gold);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;transition:all .3s;cursor:pointer;background:none;font-family:var(--sans);display:inline-block}
+.nav-cta:hover{background:var(--gold);color:var(--black)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+.hamburger span{display:block;width:22px;height:1.5px;background:var(--gold)}
+.btn-fill{padding:.85rem 2.2rem;background:var(--gold);color:var(--black);font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;font-weight:700;border:none;cursor:pointer;font-family:var(--sans);transition:.3s;display:inline-block}
+.btn-fill:hover{background:var(--gold2)}
+.btn-outline{padding:.85rem 2.2rem;background:transparent;color:var(--gold);font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;border:1px solid var(--gold);cursor:pointer;font-family:var(--sans);transition:.3s;display:inline-block}
+.btn-outline:hover{background:var(--gold);color:var(--black)}
+section{padding:5.5rem 0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 2rem}
+.label{font-size:.68rem;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.8rem}
+.sec-title{font-family:var(--serif);font-size:clamp(1.8rem,4vw,3rem);font-weight:400;line-height:1.2;margin-bottom:1.2rem}
+.divider{width:44px;height:1px;background:var(--gold);margin:1.2rem 0}
+.muted-text{color:var(--muted);font-size:.9rem;line-height:1.9}
+footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 0 2rem}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
+.fc h4{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+.fc ul{list-style:none}.fc ul li{margin-bottom:.55rem}
+.fc ul li a{font-size:.84rem;color:var(--muted);transition:color .3s}
+.fc ul li a:hover{color:var(--white)}
+.fc address{font-style:normal;font-size:.84rem;color:var(--muted);line-height:1.9}
+.fc address a{color:var(--gold)}
+.fb{border-top:1px solid var(--border);padding-top:2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.8rem}
+.fb p{font-size:.74rem;color:var(--muted)}.fb a{color:var(--gold)}
+.credit{font-size:.7rem;color:#444}.credit a{color:#666}
+#ck{position:fixed;bottom:0;left:0;right:0;background:rgba(10,10,10,.97);border-top:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;z-index:9999}
+#ck p{font-size:.8rem;color:var(--muted);flex:1;min-width:200px}
+#ck a{color:var(--gold);text-decoration:underline}
+.rv{opacity:0;transform:translateY(22px);transition:.7s ease}
+.rv.on{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.22s}.d3{transition-delay:.34s}
+.page-hero{height:42vh;min-height:300px;position:relative;display:flex;align-items:flex-end;padding-bottom:4rem}
+.ph-bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(.28)}
+.ph-ov{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 30%,rgba(12,12,12,.85) 100%)}
+.ph-c{position:relative;max-width:1120px;margin:0 auto;padding:0 2rem}
+.ph-c h1{font-family:var(--serif);font-size:clamp(2.2rem,5vw,4rem);font-weight:400}
+@media(max-width:900px){.fg{grid-template-columns:1fr;gap:2rem}}
+@media(max-width:700px){
+  nav{padding:0 1.2rem}
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:flex;z-index:1001;position:relative}
+  .nav-links.open{
+    display:flex;flex-direction:column;
+    position:fixed;top:0;left:0;right:0;bottom:0;
+    background:rgba(12,12,12,.98);
+    align-items:center;justify-content:center;
+    gap:2rem;z-index:1000;
+    padding:2rem;overflow-y:auto
+  }
+  .nav-links.open a{font-size:1.1rem;letter-spacing:.1em}
+  .nav-links.open .nav-cta-mobile{
+    display:inline-block;margin-top:1rem;
+    padding:.8rem 2rem;border:1px solid var(--gold);
+    color:var(--gold);font-size:.78rem;letter-spacing:.12em;
+    text-transform:uppercase
+  }
+  .close-btn{
+    display:block;position:absolute;top:1.4rem;right:1.4rem;
+    background:none;border:none;cursor:pointer;
+    color:var(--gold);font-size:1.4rem;line-height:1;
+    font-family:var(--sans);z-index:1002
+  }
+  section{padding:3.5rem 0}
+  .legal{padding:5.5rem 1.2rem 4rem}
+  .legal h1{font-size:1.8rem}
+  .legal h2{font-size:1rem;word-break:break-word}
+  .legal p,.legal address{font-size:.84rem;word-break:break-word}
+  #ck{flex-direction:column;align-items:flex-start;padding:1rem 1.2rem;gap:.8rem}
+  #ck p{min-width:unset;width:100%}
+  #ck button{width:100%;text-align:center}
+}.legal{max-width:800px;margin:0 auto;padding:8rem 2rem 5rem}.legal h1{font-family:var(--serif);font-size:2.5rem;font-weight:400;margin-bottom:.5rem}.ld{width:44px;height:1px;background:var(--gold);margin:1.5rem 0 2.5rem}.legal h2{font-family:var(--serif);font-size:1.1rem;font-weight:400;color:var(--gold);margin:2rem 0 .6rem}.legal p,.legal address{font-size:.87rem;color:var(--muted);line-height:1.9;font-style:normal;margin-bottom:.5rem}.legal a{color:var(--gold)}</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiMwYTBhMGEiLz4KICA8IS0tIE91dGVyIGNpcmNsZSAtLT4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzlhOTZlIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDwhLS0gV2F2ZSAvIHN1c2hpIHJpY2Ugc2hhcGUgLS0+CiAgPGVsbGlwc2UgY3g9IjUwIiBjeT0iNjIiIHJ4PSIyMiIgcnk9IjEwIiBmaWxsPSIjYzlhOTZlIiBvcGFjaXR5PSIwLjkiLz4KICA8IS0tIEZpc2ggLyB0b3BwaW5nIGFyYyAtLT4KICA8cGF0aCBkPSJNIDI4IDU0IFEgNTAgMzggNzIgNTQiIGZpbGw9IiM4YTFhMWEiIHN0cm9rZT0ibm9uZSIvPgogIDwhLS0gTm9yaSBiYW5kIC0tPgogIDxyZWN0IHg9IjI4IiB5PSI1NiIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjUiIHJ4PSIyIiBmaWxsPSIjMWExYTFhIi8+CiAgPCEtLSBLYW5qaS1zdHlsZSBzdHJva2VzIGZvcm1pbmcgSyAtLT4KICA8bGluZSB4MT0iMzYiIHkxPSIyMiIgeDI9IjM2IiB5Mj0iNDIiIHN0cm9rZT0iI2M5YTk2ZSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIzNiIgeTE9IjMyIiB4Mj0iNDgiIHkyPSIyMiIgc3Ryb2tlPSIjYzlhOTZlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGxpbmUgeDE9IjM2IiB5MT0iMzIiIHgyPSI0OCIgeTI9IjQyIiBzdHJva2U9IiNjOWE5NmUiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIERvdCBhY2NlbnQgLS0+CiAgPGNpcmNsZSBjeD0iNTciIGN5PSIyOCIgcj0iMi41IiBmaWxsPSIjYzlhOTZlIiBvcGFjaXR5PSIwLjYiLz4KICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjMyIiByPSIxLjUiIGZpbGw9IiNjOWE5NmUiIG9wYWNpdHk9IjAuNCIvPgo8L3N2Zz4K" alt="Kizushi"/>
+    <span class="logo-text">Kizushi</span>
+  </a>
+  <ul class="nav-links" id="nl"><li><a href="index.html" >Start</a></li><li><a href="speisekarte.html" >Speisekarte</a></li><li><a href="ueber-uns.html" >Über uns</a></li><li><a href="kontakt.html" >Kontakt</a></li><li><a href="datenschutz.html" >Datenschutz</a></li><li><a href="impressum.html" class="act">Impressum</a></li><li><a href="kontakt.html" class="nav-cta-mobile">Reservieren</a></li></ul>
+  <a href="kontakt.html" class="nav-cta">Reservieren</a>
+  <button class="hamburger" id="hb"><span></span><span></span><span></span></button>
+</nav>
+<div class="legal"><span style="font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)">Rechtliches</span><h1>Impressum</h1><div class="ld"></div>
+<h2>Angaben gemäß § 5 TMG</h2><address>Kizushi Asiatische Fusion<br/>Burgstr. 2<br/>65719 Hofheim am Taunus<br/>Hessen, Deutschland</address>
+<h2>Kontakt</h2><p>Telefon: <a href="tel:+4961929221591">06192 9221591</a><br/>E-Mail: <a href="mailto:Kizushi@outlook.de">Kizushi@outlook.de</a></p>
+<h2>Verantwortlich für den Inhalt (§ 55 Abs. 2 RStV)</h2><address>Kizushi Asiatische Fusion<br/>Burgstr. 2<br/>65719 Hofheim am Taunus</address>
+<h2>Umsatzsteuer-ID</h2><p>Auf Anfrage erhältlich.</p>
+<h2>Haftung für Inhalte</h2><p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte verantwortlich. Nach §§ 8–10 TMG sind wir nicht verpflichtet, übermittelte fremde Informationen zu überwachen. Bei Bekanntwerden von Rechtsverletzungen entfernen wir diese Inhalte umgehend.</p>
+<h2>Haftung für Links</h2><p>Unser Angebot enthält Links zu externen Webseiten Dritter. Auf deren Inhalte haben wir keinen Einfluss und übernehmen daher keine Gewähr.</p>
+<h2>Urheberrecht</h2><p>Die durch die Seitenbetreiber erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Die Vervielfältigung bedarf der schriftlichen Zustimmung des jeweiligen Autors.</p>
+<h2>Streitschlichtung</h2><p>EU-Streitschlichtungsplattform: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>. Wir nehmen nicht an Streitbeilegungsverfahren teil.</p>
+<p style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border)"><a href="index.html" style="color:var(--gold);font-size:.82rem">← Zurück zur Startseite</a></p>
+</div>
+<footer>
+  <div class="wrap">
+    <div class="fg">
+      <div class="fc">
+        <div class="logo" style="margin-bottom:1rem">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiMwYTBhMGEiLz4KICA8IS0tIE91dGVyIGNpcmNsZSAtLT4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzlhOTZlIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDwhLS0gV2F2ZSAvIHN1c2hpIHJpY2Ugc2hhcGUgLS0+CiAgPGVsbGlwc2UgY3g9IjUwIiBjeT0iNjIiIHJ4PSIyMiIgcnk9IjEwIiBmaWxsPSIjYzlhOTZlIiBvcGFjaXR5PSIwLjkiLz4KICA8IS0tIEZpc2ggLyB0b3BwaW5nIGFyYyAtLT4KICA8cGF0aCBkPSJNIDI4IDU0IFEgNTAgMzggNzIgNTQiIGZpbGw9IiM4YTFhMWEiIHN0cm9rZT0ibm9uZSIvPgogIDwhLS0gTm9yaSBiYW5kIC0tPgogIDxyZWN0IHg9IjI4IiB5PSI1NiIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjUiIHJ4PSIyIiBmaWxsPSIjMWExYTFhIi8+CiAgPCEtLSBLYW5qaS1zdHlsZSBzdHJva2VzIGZvcm1pbmcgSyAtLT4KICA8bGluZSB4MT0iMzYiIHkxPSIyMiIgeDI9IjM2IiB5Mj0iNDIiIHN0cm9rZT0iI2M5YTk2ZSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIzNiIgeTE9IjMyIiB4Mj0iNDgiIHkyPSIyMiIgc3Ryb2tlPSIjYzlhOTZlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGxpbmUgeDE9IjM2IiB5MT0iMzIiIHgyPSI0OCIgeTI9IjQyIiBzdHJva2U9IiNjOWE5NmUiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIERvdCBhY2NlbnQgLS0+CiAgPGNpcmNsZSBjeD0iNTciIGN5PSIyOCIgcj0iMi41IiBmaWxsPSIjYzlhOTZlIiBvcGFjaXR5PSIwLjYiLz4KICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjMyIiByPSIxLjUiIGZpbGw9IiNjOWE5NmUiIG9wYWNpdHk9IjAuNCIvPgo8L3N2Zz4K" alt="" width="36" height="36"/>
+          <span style="font-family:var(--serif);color:var(--gold);font-size:1rem">Kizushi Asiatische Fusion</span>
+        </div>
+        <p style="font-size:.83rem;color:var(--muted);line-height:1.9;margin-top:.5rem;max-width:280px">Vietnam · Japan · China · Thailand – vereint in Hofheim am Taunus.</p>
+      </div>
+      <div class="fc">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="speisekarte.html">Speisekarte</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="kontakt.html">Kontakt & Reservierung</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4>Kontakt</h4>
+        <address>Burgstr. 2<br/>65719 Hofheim am Taunus<br/>Hessen, Deutschland<br/><br/><a href="tel:+4961929221591">06192 9221591</a><br/><a href="mailto:Kizushi@outlook.de">Kizushi@outlook.de</a></address>
+      </div>
+    </div>
+    <div class="fb">
+      <p>© 2025 Kizushi Asiatische Fusion · Alle Rechte vorbehalten</p>
+      <p><a href="impressum.html">Impressum</a> &nbsp;·&nbsp; <a href="datenschutz.html">Datenschutz</a></p>
+      <p class="credit">Gestaltet von <a href="#">Max Pörtner</a></p>
+    </div>
+  </div>
+</footer>
+<div id="ck"><p>Diese Website verwendet Cookies. <a href="datenschutz.html">Datenschutzerklärung</a>.</p><button onclick="document.getElementById('ck').style.display='none';localStorage.setItem('ck','n')" class="btn-outline" style="padding:.5rem 1.2rem;font-size:.72rem">Ablehnen</button><button onclick="document.getElementById('ck').style.display='none';localStorage.setItem('ck','y')" class="btn-fill" style="padding:.5rem 1.2rem;font-size:.72rem">Akzeptieren</button></div>
+<script>
+if(localStorage.getItem('ck'))document.getElementById('ck').style.display='none';
+const hb=document.getElementById('hb'),nl=document.getElementById('nl');
+function openMenu(){
+  nl.classList.add('open');
+  document.body.style.overflow='hidden';
+  if(!document.getElementById('close-nav-btn')){
+    const btn=document.createElement('button');
+    btn.id='close-nav-btn';btn.className='close-btn';btn.innerHTML='✕';btn.setAttribute('aria-label','Menü schließen');
+    btn.onclick=closeMenu;nl.appendChild(btn);
+  }
+}
+function closeMenu(){nl.classList.remove('open');document.body.style.overflow='';}
+hb.onclick=openMenu;
+nl.querySelectorAll('a').forEach(a=>a.onclick=closeMenu);
+const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('on');obs.unobserve(x.target)}}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
